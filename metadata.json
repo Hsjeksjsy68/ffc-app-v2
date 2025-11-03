@@ -1,0 +1,5 @@
+{
+  "name": "Flamehunter FC APP v3.1",
+  "description": "A fully responsive football club web app for Flamehunter FC, featuring player profiles, schedules, real-time chat, and an admin panel for content management. Built with React, TypeScript, and Firebase.",
+  "requestFramePermissions": []
+}

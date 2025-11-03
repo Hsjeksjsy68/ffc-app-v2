@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://flamehunter-fc.odoo.com/web/image/website/1/logo/Flamehunter%20FC?unique=2e18922" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flamehunter FC App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+            colors: {
+              'primary': '#E53935', // Flamehunter Red
+              'primary-focus': '#C62828',
+              'primary-content': '#FFFFFF',
+              'secondary': '#1D232A', // Dark Gray
+              'secondary-focus': '#12161A',
+              'accent': '#F43F5E', // Rose
+              'neutral': '#2A323C',
+              'base-100': '#FFFFFF', // Light mode background
+              'base-200': '#F2F2F2',
+              'base-300': '#E5E6E6',
+              'base-content': '#1D232A',
+              'dark-base-100': '#1D232A', // Dark mode background
+              'dark-base-200': '#12161A',
+              'dark-base-300': '#0A0D0F',
+              'dark-base-content': '#A6ADBB',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "firebase/": "https://aistudiocdn.com/firebase@^12.5.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
